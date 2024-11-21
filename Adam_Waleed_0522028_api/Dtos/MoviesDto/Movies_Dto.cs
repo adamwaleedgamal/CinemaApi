@@ -6,7 +6,9 @@ namespace Adam_Waleed_0522028_api.Dtos.MoviesDto
     public class Movies_Dto
     {
         public int Id { get; set; }
+
         [Required]
+
         public string Title { get; set; }
         [Required]
         public DateTime ReleaseYear { get; set; }
